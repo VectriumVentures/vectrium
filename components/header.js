@@ -28,7 +28,7 @@ const header = () => {
                 height={40} 
                 className="mr-2"
               />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Vectrium</span> Ventures
+             <Link href="/"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Vectrium</span> Ventures</Link>
             </div>
                 </div>
                 
@@ -36,7 +36,7 @@ const header = () => {
                 <nav className="hidden md:flex space-x-8">
                   <a href="/#services" className="text-sm text-gray-300 hover:text-white transition-colors">Services</a>
                   <a href="/#about" className="text-sm text-gray-300 hover:text-white transition-colors">About</a>
-                  <a href="/#work" className="text-sm text-gray-300 hover:text-white transition-colors">Work</a>
+                  {/* <a href="/#work" className="text-sm text-gray-300 hover:text-white transition-colors">Work</a> */}
                   <a href="/#testimonials" className="text-sm text-gray-300 hover:text-white transition-colors">Testimonials</a>
                   <a href="/#career" className="text-sm text-gray-300 hover:text-white transition-colors">Career</a>
                   <Link href="/interns" className="text-sm text-gray-300 hover:text-white transition-colors">Interns</Link>
@@ -61,7 +61,7 @@ const header = () => {
                   <nav className="flex flex-col space-y-4">
                     <a href="/#services" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Services</a>
                     <a href="/#about" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>About</a>
-                    <a href="/#work" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Work</a>
+                    {/* <a href="/#work" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Work</a> */}
                     <a href="/#testimonials" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Testimonials</a>
                     <a href="/#career" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Career</a>
                     <Link href="/interns" className="text-gray-300 hover:text-white py-2 transition-colors" onClick={() => setNavOpen(false)}>Interns</Link>
